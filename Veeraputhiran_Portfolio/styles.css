@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: Poppins;
+}
+
+.header{
+    background-color: rgb(226, 80, 80);
+    color: #fff;
+    padding: 35px;  
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+} 
+.logo a{
+    font-size: 30px;
+    font-weight: bold;
+    color:#fff;
+    text-decoration: none;
+
+}
+
+#navbar{
+    float: right;
+}
+
+#navbar a {
+    margin-right: 20px;
+    padding: 8px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: all 0.5s;    
+}
+
+#navbar a:hover{
+    background-color: #fff;
+    color:black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.welcome-text h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.contact-btn{
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.contact-btn:hover{
+background-color: rgb(226, 80, 80);
+}
+
+.resume-btn1{
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:background-color 0.5s;
+}
+
+.resume-btn1:hover{
+    background-color: black;
+    color:#fff;
+}
+
+.icons{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill-text{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.line1{
+    width: 50%;
+    text-align: center;
+    border: none;   
+    border-top: solid 2px #000;
+}
+.images button{
+    cursor: pointer;
+    transition: transform 0.7s ease-in-out;
+}
+
+.images button:hover{
+    
+    transform: scale(1.1);
+}
+
+.left{
+    text-align: center;    
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: center;
+}
+
+#projects h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container h2{
+   margin-bottom: auto;
+   text-align: center; 
+}
+
+.samp1{
+    border: 2px solid;
+}
+
+.footer{
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}

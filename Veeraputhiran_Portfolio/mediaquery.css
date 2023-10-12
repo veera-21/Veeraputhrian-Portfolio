@@ -1,0 +1,44 @@
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    header {
+        padding: 15px; /* Reduce the header padding for smaller screens */
+    }
+
+    .logo a {
+        font-size: 24px; /* Reduce the font size of the logo */
+    }
+
+    #navbar {
+        float: none; /* Remove the float for the navigation */
+        text-align: center; /* Center-align the navigation items */
+        margin-top: 20px;
+    }
+
+    #navbar a {
+        margin-right: 0; /* Remove right margin for navigation items */
+        margin-bottom: 10px; /* Add bottom margin for navigation items */
+    }
+
+    .container {
+        height: auto; /* Adjust the container height for smaller screens */
+    }
+
+    .welcome-text h2 {
+        font-size: 40px; /* Reduce the font size of the welcome text */
+    }
+
+    .contact-btn,
+    .resume-btn1 {
+        font-size: 14px; /* Reduce the font size of buttons */
+        padding: 10px 20px; /* Adjust button padding */
+    }
+
+    .icons {
+        margin: 20px 0; /* Adjust margin for icons */
+        text-align: center; /* Center-align icons */
+    }
+
+    .icons img {
+        margin: 0 10px; /* Add margin to icons for spacing */
+    }
+}
